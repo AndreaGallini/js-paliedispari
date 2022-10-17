@@ -9,10 +9,14 @@
     <script src="../js/script2.js" defer></script>
     <title>Document</title>
 </head>
-<body>
-    <input class="mx-5 my-input" type="number" name="numero" id="numero" min="1" max="5" placeholder="Inserisci un numero da 1 a 5">
-    <input class="mx-5" type="text" placeholder="Inseriesci pari o dispari" id="pOd">
-    <button class="btn btn-primary my-5">Gioca</button>
-    <h1></h1>
+<body class="container-md d-flex flex-column align-items-center mx-5">
+    <h1>Sfida il pc a Pari o Dispari</h1>
+    <h3 class=" my-margin">Inserisci un numero da 1 a 5</h3>
+    <input class="mx-5 col-3" type="number" name="numero" id="numero" min="1" max="5" placeholder="Inserisci un numero da 1 a 5">
+    <h3 class="mx-5 my-margin">Pari o Dispari?</h3>
+    <p>Digita pari o dispari</p>
+    <input type="text" id="pOd" placeholder="Inserisci pari o dispari" class="col-3 mx-5">
+    <button class="btn btn-primary my-5">Sfida il Computer</button>
+    <h1 class="testo" id="testo"></h1>
 </body>
 </html>
